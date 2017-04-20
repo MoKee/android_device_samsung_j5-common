@@ -65,11 +65,11 @@ QCOM_BT_USE_BTNV := true
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
+# MKHW
+BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    $(LOCAL_PATH)/cmhw
+    hardware/mokee/mkhw \
+    $(LOCAL_PATH)/mkhw
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
